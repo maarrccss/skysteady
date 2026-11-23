@@ -1,0 +1,92 @@
+:root {
+  --bg: #060a13;
+  --bg-deep: #0a1220;
+  --ink: #f5f2ea;
+  --soft: #a9b2c2;
+  --gold: #e3c17f;
+  --card: rgba(255, 255, 255, 0.055);
+  --line: rgba(255, 255, 255, 0.1);
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--ink);
+  background: linear-gradient(var(--bg-deep), var(--bg)) fixed;
+  min-height: 100vh;
+}
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 48px 20px 64px;
+}
+.eyebrow {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+h1 {
+  margin: 8px 0 6px;
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.12;
+  letter-spacing: -0.01em;
+}
+h2 {
+  margin: 34px 0 8px;
+  font-size: 20px;
+  font-weight: 600;
+}
+h3 {
+  margin: 20px 0 4px;
+  font-size: 17px;
+  font-weight: 600;
+}
+p,
+ul {
+  margin: 10px 0;
+}
+li {
+  margin: 6px 0;
+}
+a {
+  color: var(--gold);
+}
+.soft {
+  color: var(--soft);
+  font-size: 15px;
+}
+.card {
+  margin: 24px 0;
+  padding: 6px 22px 16px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+}
+.card h2 {
+  margin-top: 18px;
+}
+.note {
+  margin: 24px 0;
+  padding: 14px 20px;
+  background: rgba(227, 193, 127, 0.08);
+  border: 1px solid rgba(227, 193, 127, 0.32);
+  border-radius: 18px;
+}
+.note p {
+  margin: 6px 0;
+}
+.foot {
+  margin-top: 44px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  font-size: 15px;
+}
